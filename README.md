@@ -6,7 +6,7 @@
 
 - [BELLE指令微调数据集](https://github.com/LianjiaTech/BELLE/tree/main/1.5M)(1.5M)
 - [BELLE10M中文数据集](https://github.com/LianjiaTech/BELLE/tree/main/10M), 包含0.25M数学指令数据集和0.8M多轮任务对话数据集
-
+- [InstructionWild](https://github.com/XueFuzhao/InstructionWild): Colossal AI 收集的中英双语数据集(104K)
 
 
 ## 模型
@@ -22,6 +22,8 @@
 
 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
 
+### ColossalChat
+[ColossalChat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
 
 ## LLM(基座)
 ### LLaMA
