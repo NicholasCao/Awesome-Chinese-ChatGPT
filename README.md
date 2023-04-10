@@ -7,6 +7,7 @@
 - [BELLE指令微调数据集](https://github.com/LianjiaTech/BELLE/tree/main/1.5M)(1.5M)
 - [BELLE10M中文数据集](https://github.com/LianjiaTech/BELLE/tree/main/10M), 包含0.25M数学指令数据集和0.8M多轮任务对话数据集
 - [InstructionWild](https://github.com/XueFuzhao/InstructionWild): Colossal AI 收集的中英双语数据集(104K)
+- [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM): GPT-4标注的中英双语指令微调数据，prompt来自[Alpaca](https://github.com/tatsu-lab/stanford_alpaca)。
 
 
 ## 模型
