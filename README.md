@@ -60,7 +60,7 @@ Huggingface开源的LLM模型。
 - [Baize](https://github.com/project-baize/baize-chatbot): LLAMA聊天微调，数据采集自ChatGPT self-chat
 - [LoRA](https://github.com/microsoft/LoRA): popular低成本LLM参数高效微调方案，已集成到[PEFT](https://github.com/huggingface/peft)
 - [self-instruct](https://github.com/yizhongw/self-instruct): 低成本收集指令微调数据
-
+- [UltraChat](https://github.com/thunlp/UltraChat): ChatGPT生成的多轮对话数据集，目前只包含英文。
 
 ## Contribution
 如果你创建或发现了任何关于中文ChatGPT的优秀资源，请随意创建Issue或PR来贡献这个列表!
