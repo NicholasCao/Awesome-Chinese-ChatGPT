@@ -4,6 +4,14 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![](https://img.shields.io/github/last-commit/NicholasCao/Awesome-Chinese-ChatGPT?color=green)
 
+<img src="assets/chatgpt.jpg" width="45%" div align=center /> <img src="assets/chatgpt2.svg" width="45%" div align=center />
+
+Three steps to ChatGPT: 
+1. LLM-pretrain
+2. Instruction tuning and code continual pretrain
+3. RLHF (SFT, RM, PPO-RL)
+
+
 ## Data
 
 - [BELLE指令微调数据集](https://github.com/LianjiaTech/BELLE/tree/main/1.5M)(1.5M)
@@ -19,7 +27,9 @@
 参照[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)(SFT only)，对BLOOMZ和LLAMA进行微调。
 
 ### [MOSS](https://github.com/txsun1997/MOSS)
-![MOSS](./assets/moss.jpg)
+<!-- ![MOSS](./assets/moss.jpg) -->
+<img src="assets/moss.jpg" width="40%" height="50%" div align=center />
+
 复旦大学团队研发的实现方案，图来自邱老师的分享。(Backbone为20B大模型)
 
 ### [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
