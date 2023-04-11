@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![](https://img.shields.io/github/last-commit/NicholasCao/Awesome-Chinese-ChatGPT?color=green)
 
-<img src="assets/chatgpt.jpg" width="45%" div align=center /> <img src="assets/chatgpt2.svg" width="45%" div align=center />
+<img src="assets/chatgpt.jpg" width="44.5%" div align=center /> <img src="assets/chatgpt2.svg" width="45%" div align=center />
 
 Three steps to ChatGPT: 
 1. LLM-pretrain
@@ -19,6 +19,7 @@ Three steps to ChatGPT:
 - [InstructionWild](https://github.com/XueFuzhao/InstructionWild): Colossal AI 收集的中英双语数据集(104K)
 - [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM): GPT-4标注的中英双语指令微调数据，prompt来自[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)。
 - [ShareGPT](https://sharegpt.com/): ChatGPT用户分享的聊天数据，大部分为英文数据，插件维护者目前已经关闭了公开获取数据的接口。
+- [CAMEL](https://github.com/lightaime/camel#data-hosted-on-hugging-face): 对话式指令跟随数据集，并将英文数据翻译到10种包含中文的不同语言。
 
 ## 模型
 
@@ -48,8 +49,8 @@ Huggingface开源的LLM模型。
 - [BLOOM](https://huggingface.co/docs/transformers/v4.27.2/en/model_doc/bloom#overview)
 - [BLOOMZ](https://huggingface.co/bigscience/bloomz): 指令微调版的BLOOM
 
-### [GLM](https://github.com/THUDM/GLM)
-清华大学开源的使用自回归填空目标进行预训练的通用语言模型
+### GLM
+清华大学开源的使用自回归填空目标进行预训练的通用语言模型[GLM](https://github.com/THUDM/GLM)
 
 ## 其他相关开源项目
 其余优秀开源项目，大部分为纯英文
