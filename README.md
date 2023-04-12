@@ -1,4 +1,4 @@
-# 🧠 Awesome-Chinese-ChatGPT
+# 🧠 Awesome-Chinese-ChatGPT-Implement
 收录实现中文版ChatGPT的各种开源技术路线，数据及其他资料
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -11,6 +11,7 @@ Three steps to ChatGPT:
 2. Instruction tuning and code continual pretrain
 3. RLHF (SFT, RM, PPO-RL)
 
+具体技术可参考 [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)
 
 ## Data
 
@@ -40,6 +41,9 @@ Three steps to ChatGPT:
 ### [ColossalChat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
 Colossal-AI实现RLHF for LLM方案(基于LLaMA)。
 
+### [DeepSpeed Chat](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat)
+微软基于DeepSpeed开源的简单、快速且经济实惠的RLHF训练方案。
+
 ## LLM(基座)
 ### LLaMA
 [LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models，Facebook/Meta开源的LLM，中文词表较小。
@@ -63,6 +67,6 @@ Huggingface开源的LLM模型。
 - [UltraChat](https://github.com/thunlp/UltraChat): ChatGPT生成的多轮对话数据集，目前只包含英文。
 
 ## Contribution
-如果你创建或发现了任何关于中文ChatGPT的优秀资源，请随意创建Issue或PR来贡献这个列表!
+如果你创建或发现了任何关于实现中文ChatGPT的优秀资源，请创建Issue或PR来贡献这个仓库!
 
-If you created or found any awesome resource about Chinese ChatGPT, feel free to create issues or PRs to contribute to this list!
+If you created or found any awesome resource about Chinese ChatGPT, feel free to create issues or PRs to contribute to this repository!
