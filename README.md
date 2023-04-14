@@ -65,6 +65,7 @@ Huggingface开源的LLM模型。
 - [LoRA](https://github.com/microsoft/LoRA): popular低成本LLM参数高效微调方案，已集成到[PEFT](https://github.com/huggingface/peft)
 - [self-instruct](https://github.com/yizhongw/self-instruct): 低成本收集指令微调数据
 - [UltraChat](https://github.com/thunlp/UltraChat): ChatGPT生成的多轮对话数据集，目前只包含英文。
+- [Dolly](https://github.com/databrickslabs/dolly): 基于EleutherAI/pythia-12b的指令微调，包含首个开源的人工标注指令微调数据集。
 
 ## Contribution
 如果你创建或发现了任何关于实现中文ChatGPT的优秀资源，请创建Issue或PR来贡献这个仓库!
