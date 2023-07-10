@@ -28,7 +28,7 @@ Three steps to ChatGPT:
 ## 上下文长度
 - FlashAttention ([Github](https://github.com/HazyResearch/flash-attention), [Torch 2.0 implementation](https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html))
 - [Positional Interpolation](https://arxiv.org/pdf/2306.15595.pdf)
-- [NTK-Aware Scaled RoPE] ([Reddit](https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/), [Implementation](https://github.com/huggingface/text-generation-inference/issues/512))
+- NTK-Aware Scaled RoPE ([Reddit](https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/), [Implementation](https://github.com/huggingface/text-generation-inference/issues/512))
 
 ## 工具使用
 - Toolformer ([Paper](https://arxiv.org/abs/2302.04761), [Implementation](https://github.com/lucidrains/toolformer-pytorch))
