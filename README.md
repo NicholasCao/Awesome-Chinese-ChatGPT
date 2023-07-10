@@ -25,37 +25,29 @@ Three steps to ChatGPT:
 
 ## 模型
 
-### [BELLE](https://github.com/LianjiaTech/BELLE)
-
-参照[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)(SFT only)，对BLOOMZ和LLAMA进行微调。
-
-### [MOSS](https://github.com/txsun1997/MOSS)
-<!-- ![MOSS](./assets/moss.jpg) -->
-<img src="assets/moss.jpg" width="40%" height="50%" div align=center />
-
-复旦大学团队研发的实现方案，图来自邱老师的分享。(Backbone为20B大模型)
-
-### [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
-
-清华大学团队基于[GLM](https://github.com/THUDM/GLM)的实现方案，其6B模型已公布权重。
-
-### [ColossalChat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
-Colossal-AI实现RLHF for LLM方案(基于LLaMA)。
-
-### [DeepSpeed Chat](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat)
-微软基于DeepSpeed开源的简单、快速且经济实惠的RLHF训练方案。
+- [BELLE](https://github.com/LianjiaTech/BELLE)
+- [MOSS](https://github.com/txsun1997/MOSS)
+- [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
+- [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)
 
 ## LLM(基座)
-### LLaMA
-[LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models，Facebook/Meta开源的LLM，中文词表较小。
+- [LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models，Facebook/Meta开源的LLM，中文词表较小。
 
-### BLOOM
-Huggingface开源的LLM模型。
-- [BLOOM](https://huggingface.co/docs/transformers/v4.27.2/en/model_doc/bloom#overview)
-- [BLOOMZ](https://huggingface.co/bigscience/bloomz): 指令微调版的BLOOM
+- Bloom: Huggingface开源的LLM模型。
+  - [BLOOM](https://huggingface.co/docs/transformers/v4.27.2/en/model_doc/bloom#overview)
+  - [BLOOMZ](https://huggingface.co/bigscience/bloomz): 指令微调版的BLOOM
 
-### GLM
-清华大学开源的使用自回归填空目标进行预训练的通用语言模型[GLM](https://github.com/THUDM/GLM)
+- GLM: 清华大学开源的使用自回归填空目标进行预训练的通用语言模型[GLM](https://github.com/THUDM/GLM)
+- [更多](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+
+## 上下文长度
+- FlashAttention ([Github](https://github.com/HazyResearch/flash-attention), [Torch 2.0 implementation](https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html))
+- [Positional Interpolation](https://arxiv.org/pdf/2306.15595.pdf)
+- [NTK-Aware Scaled RoPE] ([Reddit](https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/), [Implementation](https://github.com/huggingface/text-generation-inference/issues/512))
+
+## 工具使用
+- Toolformer ([Paper](https://arxiv.org/abs/2302.04761), [Implementation](https://github.com/lucidrains/toolformer-pytorch))
+- [Toolbench](https://github.com/OpenBMB/ToolBench)
 
 ## 其他相关开源项目
 其余优秀开源项目，大部分为纯英文
