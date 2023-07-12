@@ -23,6 +23,7 @@ Three steps to ChatGPT:
 模型更新太快，收录难度较高，提供以下几个榜单作为参考。
 - [C-Eval](https://github.com/SJTU-LIT/ceval)
 - [Arena](https://chat.lmsys.org/)
+- [SuperCLUE](https://github.com/CLUEbenchmark/SuperCLUE); [SuperCLUE琅琊榜](https://www.superclueai.com/)
 - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
 ## 上下文长度
@@ -33,6 +34,7 @@ Three steps to ChatGPT:
 ## 工具使用
 - Toolformer ([Paper](https://arxiv.org/abs/2302.04761), [Implementation](https://github.com/lucidrains/toolformer-pytorch))
 - [Toolbench](https://github.com/OpenBMB/ToolBench)
+- [Paper List](https://github.com/thunlp/ToolLearningPapers)
 
 ## AI Agent
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
